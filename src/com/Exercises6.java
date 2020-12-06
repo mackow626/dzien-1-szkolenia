@@ -18,7 +18,7 @@ public class Exercises6 {
 
         do {
             System.out.println("Podaj kolejna liczbe");
-            int number = scanner.nextInt();
+            int number = scanner.nextInt(); 
             list.add(number);
 
             if (number == 42 && list.get(list.size() - 2) != 42) {
